@@ -51,7 +51,11 @@ public class Sys_gd implements Serializable {
      */
     @Column(name="dealTime")
     private String dealTime;
-
+    /**
+     * 期待解决日期
+     */
+    @Column(name="expectTime")
+    private String expectTime;
 
     /**
      * 创建人

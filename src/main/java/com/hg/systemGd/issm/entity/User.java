@@ -27,7 +27,7 @@ public class User implements Serializable {
     /**
      * 用户名
      */
-    @Column(name = "name")
+    @Column(name = "name",)
     private  String name;
     /**
      * 密码
